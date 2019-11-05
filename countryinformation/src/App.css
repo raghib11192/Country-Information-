@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 50px 1fr;
+    grid-template-columns:repeat(2,1fr);
+    grid-gap: 10px;
+    background: #efe9dc;
+    
+}
+.header{
+    
+    grid-column: 1/-1;
+
+}
+.search_box{
+    
+    grid-column: 1/-1;
+
+
+}
+.main_content{
+    background: #efe9dc;
+}
+.sidebar{
+    
+}
+.header nav {
+    height: 80px;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header nav a{
+    font-size: 1.5vd;
+    font-weight: bold;
+}
+.infor span {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkmagenta;
+    text-transform: uppercase;
+
+}
+  span:last-child{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: red;
+    margin-left: 50px;
+}
+.responsive{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
